@@ -2,11 +2,11 @@ export default function SecSection() {
 
     return (
       <>
-        <main className="bg-bg-section2 bg-no-repeat bg-cover h-screen flex flex-col items-center justify-center gap-20"
+        <main className="bg-bg-section3 bg-no-repeat bg-cover h-screen flex flex-col items-center justify-center gap-20"
         id="Sobre-Mim">
           <section className="w-1/2">
             <div className="flex flex-col items-center justify-center text-center gap-6 text-white  ">
-                <h1 className="text-5xl font-semibold text-[#FFF1E2]">SOBRE MIM</h1>
+                <h1 className="text-5xl font-semibold text-[#FFF1E2] tracking-widest">SOBRE MIM</h1>
                 <div className="flex border-2 border-[#ffb671] rounded-full w-10"></div>
                 <p className="text-xl">Aqui você encontrará mais informações sobre mim, o que eu faço e minhas habilidades atuais, principalmente em termos de programação e tecnologia.</p>
             </div>
@@ -25,7 +25,7 @@ export default function SecSection() {
               <p className="text-xl text-[#FFF1E2]">
               Estou aberto a oportunidades de <strong>Emprego</strong> onde posso contribuir, aprender e crescer. Se você tiver uma boa oportunidade que corresponda às minhas habilidades e experiência, não hesite em entrar em <strong>contato</strong> comigo.
               </p>
-              <button type="button" className=" w-[25%] h-12 rounded-lg bg-[#af753f] font-bold tracking-wider">CONTATO</button>
+              <button type="button" className=" w-[25%] h-12 rounded-lg bg-[#af753f] transition-all hover:scale-105 hover:bg-[#da9c62] font-bold tracking-wider">CONTATO</button>
             </div>
 
             <div className="flex flex-col justify-items-start w-1/3 h-full gap-10 text-[#FFF1E2]">
