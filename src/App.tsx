@@ -3,7 +3,8 @@ import FirstSec from './components/FirstSec'
 import SecSection from './components/SecSection'
 import TerSection from './components/TerSection'
 import QuarSection from './components/QuarSection'
-import UptoTop from './components/uptoTop'
+
+
 
 export default function App() {
   
@@ -14,8 +15,6 @@ export default function App() {
       <SecSection/>
       <TerSection/>
       <QuarSection/>
-      <UptoTop/>
-
     </>
   )
 }
