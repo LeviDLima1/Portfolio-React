@@ -37,7 +37,7 @@ export default function SecSection() {
                 Sou um <strong>Desenvolvedor Web iniciante focado em Frontend</strong>, construindo projetos e aprimorando meu conhecimento na área. Confira alguns dos meus trabalhos na seção <strong>Projetos</strong>.
               </p>
 
-              <p className="text-xl text-[#FFF1E2] max-md:text-sm">Também gosto de compartilhar conteúdo relacionado ao que aprendi ao longo do tempo em <strong>Desenvolvimento Web</strong> para ajudar outras pessoas da Comunidade de Desenvolvedores. Sinta-se à vontade para me Seguir no meu <a href="" className="underline text-[#ffb671]">Instagram</a>
+              <p className="text-xl text-[#FFF1E2] max-md:text-sm">Também gosto de compartilhar conteúdo relacionado ao que aprendi ao longo do tempo em <strong>Desenvolvimento Web</strong> para ajudar outras pessoas da Comunidade de Desenvolvedores. Sinta-se à vontade para me Seguir no meu <a href="https://www.instagram.com/yley_14/" target="_blank" className="underline text-[#ffb671]">Instagram</a>
               </p>
               
               <p className="text-xl text-[#FFF1E2] max-md:text-sm">
