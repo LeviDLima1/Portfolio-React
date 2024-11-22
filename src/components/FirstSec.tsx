@@ -4,7 +4,7 @@ export default function FirstSec() {
       <main
         className="bg-bg-section1 bg-no-repeat bg-cover px-10 flex h-screen items-center justify-center
         
-        max-md:flex-col-reverse
+        max-md:flex-col-reverse max-lg:flex-col-reverse
         "
         id="Home"
       >
@@ -12,13 +12,13 @@ export default function FirstSec() {
           className="pt-14"
         >
           <div className="flex flex-col text-white gap-5
-          max-md:flex-row
+          max-md:flex-row max-lg:flex-row
           ">
             <div className="w-32 text-transparent flex items-center gap-3
-            max-md:justify-center max-md:w-auto
+            max-md:justify-center max-md:w-auto max-lg:justify-center 
             ">
               <span className="bg-[#ffb671] w-2 hover:w-6 transition-all h-2 flex rounded-full
-              max-md:hidden
+              max-md:hidden max-lg:hidden 
               "></span>
               <a
                 href="https://www.instagram.com/yley_14/"
@@ -29,10 +29,10 @@ export default function FirstSec() {
               </a>
             </div>
             <div className="w-32 text-transparent flex items-center gap-3
-            max-md:justify-center max-md:w-auto
+            max-md:justify-center max-md:w-auto max-lg:justify-center
             ">
               <span className="bg-[#ffb671] w-2 hover:w-6 transition-all h-2 flex rounded-full
-              max-md:hidden
+              max-md:hidden max-lg:hidden
               "></span>
               <a
                 href="https://github.com/LeviDLima1"
@@ -43,10 +43,10 @@ export default function FirstSec() {
               </a>
             </div>
             <div className="w-32 text-transparent flex items-center gap-3
-            max-md:justify-center max-md:w-auto
+            max-md:justify-center max-md:w-auto max-lg:justify-center
             ">
               <span className="bg-[#ffb671] w-2 hover:w-6 transition-all h-2 flex rounded-full
-              max-md:hidden
+              max-md:hidden max-lg:hidden
               "></span>
               <a
                 href="https://www.linkedin.com/in/levi-duarte-lima-1b2337211/"
@@ -62,18 +62,18 @@ export default function FirstSec() {
         <section
           className="w-full pr-24 flex items-center justify-center flex-col 
           
-          max-md:pr-0
+          max-md:pr-0 max-lg:pr-0 
           "
         >
           <div
             className="w-1/2 flex flex-col items-center justify-center text-[#FFF1E2] gap-8
             
-            max-md:w-full 
+            max-md:w-full  max-lg:w-full
             "
           >
             <h1
               className="text-6xl text-white font-bold
-              max-md:text-xl text-center
+              max-md:text-xl max-lg:text-4xl text-center
               "
             >
               OLÁ, EU SOU LEVI DUARTE
@@ -87,7 +87,7 @@ export default function FirstSec() {
               href="#Projeto"
               className=" w-[25%] h-12 flex items-center justify-center rounded-lg bg-[#af753f] transition-all hover:scale-105 hover:bg-[#da9c62] font-bold tracking-wider text-white no-underline
               
-              max-md:text-sm max-md: w-[40%]
+              max-md:text-sm max-md: max-md:w-[40%]
               "
             >
               PROJETOS

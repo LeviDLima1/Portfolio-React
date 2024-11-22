@@ -4,9 +4,10 @@ export default function TerSection() {
   return (
     <>
       <main
-        className=" bg-gray-950 flex flex-col items-center justify-center bg-bg-section3 bg-cover bg-no-repeat gap-10
+        className=" bg-gray-950 flex flex-col items-center justify-center bg-bg-section3 bg-cover bg-no-repeat gap-10 pt-20 pb-20
     
-    md:h-screen max-md:px-4 max-md:pt-10 max-md:pb-10
+     max-md:px-4 max-md:pt-10 max-md:pb-10
+     max-lg:px-4 max-lg:pt-20 max-lg:pb-20
     "
         id="Projeto"
       >
@@ -15,9 +16,13 @@ export default function TerSection() {
             className="text-white w-1/2 text-center flex flex-col items-center justify-center gap-6
             
             max-md:w-full
+            max-lg:w-full
             "
           >
-            <h1 className="text-5xl font-semibold text-[#FFF1E2] tracking-widest max-md:text-4xl">
+            <h1 className="text-5xl font-semibold text-[#FFF1E2] tracking-widest 
+            max-md:text-4xl
+            max-lg:text-4xl
+            ">
               PROJETOS
             </h1>
             <div className="flex border-2 border-[#ffb671] rounded-full w-10"></div>
@@ -29,13 +34,14 @@ export default function TerSection() {
         </section>
         <section className="w-full flex flex-col items-center justify-center gap-10">
           <div
-            className="flex w-1/2 items-center justify-center
+            className="flex w-[60%] items-center justify-center gap-6
             
-             max-md:w-full  max-md:flex-col max-md:gap-4
+             max-md:w-full max-md:flex-col max-md:gap-4
+             max-lg:w-full max-lg:flex-col max-lg:gap-4 
             "
           >
             <div
-              className="flex w-1/2 items-center justify-center
+              className="flex w-1/2 items-center justify-center gap-6
                 
                  max-md:w-full
                 "
@@ -61,7 +67,7 @@ export default function TerSection() {
               >
                 Apresentação do Bulma
               </h1>
-              <p className="max-md:text-justify">
+              <p className="max-md:text-justify max-lg:text-justify">
                 Projeto focado no Bulma CSS, utilizando componentes prontos para
                 criar uma interface moderna e responsiva de forma prática e
                 rápida.
@@ -77,9 +83,11 @@ export default function TerSection() {
           </div>
 
           <div
-            className="flex w-1/2 items-center justify-center
+            className="flex w-[60%] items-center justify-center gap-6
             
-             max-md:w-full  max-md:flex-col max-md:gap-4"
+             max-md:w-full  max-md:flex-col max-md:gap-4a
+             max-lg:w-full max-lg:flex-col max-lg:gap-4
+             "
           >
             <div
               className="flex w-1/2 items-center justify-center
@@ -105,7 +113,7 @@ export default function TerSection() {
               >
                 Landing Page Huddle
               </h1>
-              <p className="max-md:text-justify">
+              <p className="max-md:text-justify max-lg:text-justify">
                 Desafio Huddle do Frontend Mentor: criação de uma landing page
                 responsiva, com layout moderno e design focado na experiência do
                 usuário.

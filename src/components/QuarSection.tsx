@@ -36,9 +36,10 @@ const ContactForm: React.FC = () => {
 
   return (
     <main
-      className="bg-gray-950 flex flex-col items-center justify-center bg-bg-section2 bg-cover bg-no-repeat gap-10
+      className="bg-gray-950 flex flex-col items-center justify-center bg-bg-section2 bg-cover bg-no-repeat gap-10 lg:h-screen
         
-    md:h-screen max-md:px-4 max-md:pt-10
+     max-md:px-4 max-md:pt-10
+     max-lg:px-4 max-lg:pt-20 max-lg:pb-20
     "
     >
       <section className="w-full flex items-center justify-center">
@@ -46,17 +47,19 @@ const ContactForm: React.FC = () => {
           className="text-white w-1/2 text-center flex flex-col items-center justify-center gap-6
                     
                     max-md:w-full
+                    max-lg:w-full
                     "
         >
           <h1
             className="text-5xl font-semibold text-[#FFF1E2] tracking-widest
                         max-md:text-4xl
+                        max-lg:text-4xl
                         "
           >
             CONTATO
           </h1>
           <div className="flex border-2 border-[#ffb671] rounded-full w-10"></div>
-          <p className="text-xl max-md:text-justify max-md:text-lg">
+          <p className="text-xl max-md:text-justify max-md:text-lg max-lg:text-lg">
             Sinta-se à vontade para entrar em contato comigo enviando o
             formulário abaixo e eu retornarei o mais breve possível.
           </p>
@@ -66,15 +69,18 @@ const ContactForm: React.FC = () => {
       <section
         className="w-1/2 flex items-center justify-center
                 
-        max-md:w-full"
+        max-md:w-full
+        max-lg:w-full"
       >
         <form
           onSubmit={handleSubmit}
-          className="w-1/2 flex flex-col items-center justify-center gap-10 p-8 text-white
+          className="w-full flex flex-col items-center justify-center gap-10 p-8 text-white
                         
-                        max-md:w-full"
+          max-md:w-full
+          max-lg:w-full"
         >
-          <div className="w-full flex flex-col gap-2">
+          <div className="w-[70%] flex flex-col gap-2
+          max-md:w-full">
             <label
               htmlFor="name"
               className="w-full text-lg font-semibold pl-3 text-white"
@@ -92,7 +98,8 @@ const ContactForm: React.FC = () => {
               placeholder="Escreva Aqui Seu Nome"
             />
           </div>
-          <div className="w-full flex flex-col gap-2">
+          <div className="w-[70%] flex flex-col gap-2
+          max-md:w-full">
             <label
               htmlFor="email"
               className="w-full text-lg font-semibold pl-3 text-white"
@@ -110,7 +117,8 @@ const ContactForm: React.FC = () => {
               placeholder="Escreva Aqui Seu E-mail"
             />
           </div>
-          <div className="w-full flex flex-col gap-2">
+          <div className="w-[70%] flex flex-col gap-2
+          max-md:w-full">
             <label
               htmlFor="message"
               className="w-full text-lg font-semibold pl-3 text-white"
@@ -129,7 +137,11 @@ const ContactForm: React.FC = () => {
           </div>
           <button
             type="submit"
-            className="w-[70%] p-2 h-12 rounded-lg bg-[#af753f] transition-all hover:scale-105 hover:bg-[#da9c62] font-bold tracking-wider"
+            className="w-[70%] p-2 h-12 rounded-lg bg-[#af753f] transition-all hover:scale-105 hover:bg-[#da9c62] font-bold tracking-wider
+            
+            max-md:w-[80%]
+            max-lg:w-[35%]
+            "
           >
             Enviar pelo WhatsApp
           </button>

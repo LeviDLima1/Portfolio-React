@@ -14,7 +14,10 @@ export default function Header() {
           <img
             src={FazoL}
             alt="Faz o L"
-            className="w-[100px] h-[100px] max-md:w-[56px] max-md:h-[56px] rounded-full"
+            className="w-[100px] h-[100px] max-md:w-[56px] max-md:h-[56px] rounded-full
+            
+            max-lg:w-[72px] max-lg:h-[72px]
+            "
           />
         </div>
 
@@ -25,7 +28,7 @@ export default function Header() {
         >
           <ul
             className="flex gap-10 text-center w-full justify-end h-10
-          
+            max-lg:gap-16
           "
           >
             <a
