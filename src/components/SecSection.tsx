@@ -2,7 +2,7 @@ export default function SecSection() {
   return (
     <>
       <main
-        className="bg-bg-section3 bg-no-repeat bg-cover flex flex-col items-center justify-center gap-20 max-md:gap-6 pt-20 pb-20
+        className="flex flex-col items-center justify-center gap-20 max-md:gap-6 pt-20 pb-20
         
         max-md:pt-20 max-md max-md:px-4 max-md:pb-10
         max-lg:pt-20 max-lg:px-6
@@ -57,8 +57,7 @@ export default function SecSection() {
               CONHEÇA-ME
             </h1>
             <p className="text-xl text-[#FFF1E2] max-md:text-sm max-lg:text-lg">
-              Sou um
-              <strong>Desenvolvedor Web iniciante focado em Frontend</strong>,
+              Sou um <strong>Desenvolvedor Web iniciante focado em Frontend</strong>,
               construindo projetos e aprimorando meu conhecimento na área.
               Confira alguns dos meus trabalhos na seção
               <strong>Projetos</strong>.
@@ -84,15 +83,16 @@ export default function SecSection() {
               oportunidade que corresponda às minhas habilidades e experiência,
               não hesite em entrar em <strong>contato</strong> comigo.
             </p>
-            <button
+            <a
+              href="#Contato"
               type="button"
-              className="w-[25%] h-12 rounded-lg bg-[#af753f] transition-all hover:scale-105 hover:bg-[#da9c62] font-bold tracking-wider
+              className="w-[25%] h-12 rounded-lg bg-[#af753f] font-bold tracking-wider flex items-center justify-center hover:scale-[105%] hover:bg-[#da9c62] transition-all text-white no-underline
               
               max-md:text-sm
               "
             >
               CONTATO
-            </button>
+            </a>
           </div>
 
           <div

@@ -2,14 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-.offcanvas.offcanvas-start {
-    width: 50% !important;
-    background-color: rgb(160, 160, 160);
-    background-image: url('./assets/bg-3.jpg');
 
-    .btn-close {
-        opacity: 1;
-    }
+* {
+    scroll-behavior: smooth;
 }
 
 

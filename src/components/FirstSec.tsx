@@ -2,7 +2,7 @@ export default function FirstSec() {
   return (
     <>
       <main
-        className="bg-bg-section1 bg-no-repeat bg-cover px-10 flex h-screen items-center justify-center
+        className="  px-10 flex h-screen items-center justify-center
         
         max-md:flex-col-reverse max-lg:flex-col-reverse
         "
