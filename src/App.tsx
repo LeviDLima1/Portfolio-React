@@ -3,7 +3,7 @@ import FirstSec from "./components/FirstSec";
 import SecSection from "./components/SecSection";
 import TerSection from "./components/TerSection";
 import ContactForm from "./components/QuarSection";
-
+import FloatButton from "./components/FloatButton";
 export default function App() {
   return (
     <>
@@ -12,6 +12,7 @@ export default function App() {
       <SecSection />
       <TerSection />
       <ContactForm />
+      <FloatButton/>
     </>
   );
 }
