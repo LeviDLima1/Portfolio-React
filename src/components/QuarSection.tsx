@@ -41,6 +41,7 @@ const ContactForm: React.FC = () => {
      max-md:px-4 max-md:pt-10
      max-lg:px-4 max-lg:pt-20 max-lg:pb-20
     "
+    id="Contato"
     >
       <section className="w-full flex items-center justify-center">
         <div
