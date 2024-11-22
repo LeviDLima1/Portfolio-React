@@ -41,7 +41,7 @@ const ContactForm: React.FC = () => {
      max-md:px-4 max-md:pt-10
      max-lg:px-4 max-lg:pt-20 max-lg:pb-20
     "
-    id="Contato"
+      id="Contato"
     >
       <section className="w-full flex items-center justify-center">
         <div
@@ -80,8 +80,10 @@ const ContactForm: React.FC = () => {
           max-md:w-full
           max-lg:w-full"
         >
-          <div className="w-[70%] flex flex-col gap-2
-          max-md:w-full">
+          <div
+            className="w-[70%] flex flex-col gap-2
+          max-md:w-full"
+          >
             <label
               htmlFor="name"
               className="w-full text-lg font-semibold pl-3 text-white"
@@ -99,8 +101,10 @@ const ContactForm: React.FC = () => {
               placeholder="Escreva Aqui Seu Nome"
             />
           </div>
-          <div className="w-[70%] flex flex-col gap-2
-          max-md:w-full">
+          <div
+            className="w-[70%] flex flex-col gap-2
+          max-md:w-full"
+          >
             <label
               htmlFor="email"
               className="w-full text-lg font-semibold pl-3 text-white"
@@ -118,8 +122,10 @@ const ContactForm: React.FC = () => {
               placeholder="Escreva Aqui Seu E-mail"
             />
           </div>
-          <div className="w-[70%] flex flex-col gap-2
-          max-md:w-full">
+          <div
+            className="w-[70%] flex flex-col gap-2
+          max-md:w-full"
+          >
             <label
               htmlFor="message"
               className="w-full text-lg font-semibold pl-3 text-white"

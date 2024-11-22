@@ -8,18 +8,22 @@ export default function FirstSec() {
         "
         id="Home"
       >
-        <div
-          className="pt-14"
-        >
-          <div className="flex flex-col text-white gap-5
+        <div className="pt-14">
+          <div
+            className="flex flex-col text-white gap-5
           max-md:flex-row max-lg:flex-row
-          ">
-            <div className="w-32 text-transparent flex items-center gap-3
+          "
+          >
+            <div
+              className="w-32 text-transparent flex items-center gap-3
             max-md:justify-center max-md:w-auto max-lg:justify-center 
-            ">
-              <span className="bg-[#ffb671] w-2 hover:w-6 transition-all h-2 flex rounded-full
+            "
+            >
+              <span
+                className="bg-[#ffb671] w-2 hover:w-6 transition-all h-2 flex rounded-full
               max-md:hidden max-lg:hidden 
-              "></span>
+              "
+              ></span>
               <a
                 href="https://www.instagram.com/yley_14/"
                 target="_blank"
@@ -28,12 +32,16 @@ export default function FirstSec() {
                 <ion-icon name="logo-instagram"></ion-icon>
               </a>
             </div>
-            <div className="w-32 text-transparent flex items-center gap-3
+            <div
+              className="w-32 text-transparent flex items-center gap-3
             max-md:justify-center max-md:w-auto max-lg:justify-center
-            ">
-              <span className="bg-[#ffb671] w-2 hover:w-6 transition-all h-2 flex rounded-full
+            "
+            >
+              <span
+                className="bg-[#ffb671] w-2 hover:w-6 transition-all h-2 flex rounded-full
               max-md:hidden max-lg:hidden
-              "></span>
+              "
+              ></span>
               <a
                 href="https://github.com/LeviDLima1"
                 target="_blank"
@@ -42,12 +50,16 @@ export default function FirstSec() {
                 <ion-icon name="logo-github"></ion-icon>
               </a>
             </div>
-            <div className="w-32 text-transparent flex items-center gap-3
+            <div
+              className="w-32 text-transparent flex items-center gap-3
             max-md:justify-center max-md:w-auto max-lg:justify-center
-            ">
-              <span className="bg-[#ffb671] w-2 hover:w-6 transition-all h-2 flex rounded-full
+            "
+            >
+              <span
+                className="bg-[#ffb671] w-2 hover:w-6 transition-all h-2 flex rounded-full
               max-md:hidden max-lg:hidden
-              "></span>
+              "
+              ></span>
               <a
                 href="https://www.linkedin.com/in/levi-duarte-lima-1b2337211/"
                 target="_blank"

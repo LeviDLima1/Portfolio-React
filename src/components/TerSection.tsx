@@ -19,10 +19,12 @@ export default function TerSection() {
             max-lg:w-full
             "
           >
-            <h1 className="text-5xl font-semibold text-[#FFF1E2] tracking-widest 
+            <h1
+              className="text-5xl font-semibold text-[#FFF1E2] tracking-widest 
             max-md:text-4xl
             max-lg:text-4xl
-            ">
+            "
+            >
               PROJETOS
             </h1>
             <div className="flex border-2 border-[#ffb671] rounded-full w-10"></div>
