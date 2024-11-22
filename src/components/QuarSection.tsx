@@ -37,7 +37,7 @@ const ContactForm: React.FC = () => {
   return (
     <main
       className="flex flex-col items-center justify-center gap-10 lg:h-screen
-        
+        pt-32 pb-32
      max-md:px-4 max-md:pt-10
      max-lg:px-4 max-lg:pt-20 max-lg:pb-20
     "
