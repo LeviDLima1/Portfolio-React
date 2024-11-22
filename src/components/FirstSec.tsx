@@ -20,7 +20,7 @@ export default function FirstSec() {
             "
             >
               <span
-                className="bg-[#ffb671] w-2 hover:w-6 transition-all h-2 flex rounded-full
+                className="bg-[#ffb671] w-2 h-2 flex rounded-full
               max-md:hidden max-lg:hidden 
               "
               ></span>
@@ -38,7 +38,7 @@ export default function FirstSec() {
             "
             >
               <span
-                className="bg-[#ffb671] w-2 hover:w-6 transition-all h-2 flex rounded-full
+                className="bg-[#ffb671] w-2 h-2 flex rounded-full
               max-md:hidden max-lg:hidden
               "
               ></span>
@@ -56,7 +56,7 @@ export default function FirstSec() {
             "
             >
               <span
-                className="bg-[#ffb671] w-2 hover:w-6 transition-all h-2 flex rounded-full
+                className="bg-[#ffb671] w-2 h-2 flex rounded-full
               max-md:hidden max-lg:hidden
               "
               ></span>
